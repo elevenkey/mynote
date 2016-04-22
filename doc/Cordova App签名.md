@@ -5,7 +5,7 @@
         keytool -genkey -v -keystore xxx.keystore -alias yyy -keyalg RSA -keysize 2048 -validity 10000. 
         注：xxx.keystore 为keystore文件名   yyy为alias名，可以自己设定 -validity 10000 为有效期
 
-        运行上面问题后，会运行一个交互式的程序，需要填写一些相关问题，其中密码一定要记住。
+        运行上面命令后，会运行一个交互式的程序，需要填写一些相关问题，其中密码一定要记住。
 
 ## 2、将生成的签名文件用于APP
         
